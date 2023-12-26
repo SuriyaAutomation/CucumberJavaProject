@@ -47,6 +47,13 @@ public class ConfigFileReader {
 		else throw new RuntimeException("password not specified in the Configuration.properties file.");
 
 	}
+	
+	public String GetenvironmentDetails() {
+		String environment = properties.getProperty("environment");
+		if (environment!=null) return environment;
+		else throw new RuntimeException("environment not specified in the Configuration.properties file.");
+
+	}
 
 
 
