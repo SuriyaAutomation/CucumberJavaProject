@@ -1,4 +1,3 @@
-
 Feature: Functionality on validating loginpage and Filter 
 
 @all @uiValidations @regression 
